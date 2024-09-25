@@ -105,4 +105,4 @@
 
 <h2>License</h2>
 
-<p>This project is licensed under the <a herf="https://prakash-tech-com.onrender.com/">Prakash_Tech</a>.</p>
+<p>This project is licensed under the <a href="https://prakash-tech-com.onrender.com/">Prakash_Tech</a>.</p>
