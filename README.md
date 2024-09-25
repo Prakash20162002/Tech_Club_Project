@@ -105,4 +105,4 @@
 
 <h2>License</h2>
 
-<p>This project is licensed under the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
+<p>This project is licensed under the <a https://prakash-tech-com.onrender.com/">Prakash_Tech</a>.</p>
