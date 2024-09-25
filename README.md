@@ -1,62 +1,108 @@
-<h1>Random User Data Generator & PDF Generator with QR Code</h1>
-Description
-This repository contains two web applications:
+<h1 align="center">Random User Data Generator & PDF Generator with QR Code</h1>
 
-Random User Data Generator: Generates random user information and stores it in a CSV file.
-PDF Generator with QR Code: Converts user input into a PDF document, which includes a QR code that holds the provided information.
-Features
-Random User Data Generator:
+<p align="center">
+    <b>Two useful web applications:</b> <br>
+    1. <strong>Random User Data Generator:</strong> Generates random user information and stores it in a CSV file. <br>
+    2. <strong>PDF Generator with QR Code:</strong> Converts user input into a PDF document that includes a QR code containing the provided information.
+</p>
 
-Generates random names, emails, and addresses.
-Saves the generated data in a CSV file for future use.
-PDF Generator with QR Code:
+---
 
-Converts any input text into a PDF.
-Embeds a QR code in the PDF that displays the provided text.
-Tech Stack
-Backend: Node.js, Express
-Frontend: HTML, CSS, JavaScript
-Libraries:
-For CSV handling: csv-writer
-For PDF generation: pdf-lib
-For QR code generation: qrcode
-Installation
-Clone the repository:
+<h2>Features</h2>
 
-bash
-Copy code
-git clone https://github.com/yourusername/your-repo-name.git
-Navigate to the project folder:
+<ul>
+    <li><strong>Random User Data Generator</strong>:
+        <ul>
+            <li>Generates random names, emails, and addresses.</li>
+            <li>Saves the generated data in a CSV file for future use.</li>
+        </ul>
+    </li>
+    <li><strong>PDF Generator with QR Code</strong>:
+        <ul>
+            <li>Converts any input text into a PDF.</li>
+            <li>Embeds a QR code in the PDF that displays the provided text.</li>
+        </ul>
+    </li>
+</ul>
 
-bash
-Copy code
-cd your-repo-name
-Install the dependencies for both applications:
+---
 
-bash
-Copy code
-npm install
-Running the Applications
-To run the Random User Data Generator:
+<h2>Tech Stack</h2>
 
-bash
-Copy code
-cd random-user-data-generator
-node app.js
-To run the PDF Generator with QR Code:
+<table>
+    <thead>
+        <tr>
+            <th>Category</th>
+            <th>Technology</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Backend</strong></td>
+            <td>Node.js, Express</td>
+        </tr>
+        <tr>
+            <td><strong>Frontend</strong></td>
+            <td>HTML, CSS, JavaScript</td>
+        </tr>
+        <tr>
+            <td><strong>Libraries</strong></td>
+            <td>
+                <ul>
+                    <li>For CSV handling: <code>csv-writer</code></li>
+                    <li>For PDF generation: <code>pdf-lib</code></li>
+                    <li>For QR code generation: <code>qrcode</code></li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
-bash
-Copy code
-cd pdf-qr-generator
-node app.js
-Usage
-Random User Data Generator
-Open the app in your browser at http://localhost:3000.
-Click on "Generate Data" to generate random user data.
-The data is saved to a data.csv file in the root directory.
-PDF Generator with QR Code
-Open the app in your browser at http://localhost:3001.
-Input the information you want to encode.
-Download the generated PDF, which will include a QR code containing the input information.
-License
-This project is licensed under the MIT License.
+---
+
+<h2>Installation</h2>
+
+<ol>
+    <li>Clone the repository:</li>
+    <pre><code>git clone https://github.com/yourusername/your-repo-name.git</code></pre>
+    
+    <li>Navigate to the project folder:</li>
+    <pre><code>cd your-repo-name</code></pre>
+    
+    <li>Install the dependencies for both applications:</li>
+    <pre><code>npm install</code></pre>
+</ol>
+
+---
+
+<h2>Running the Applications</h2>
+
+<h3>To run the <strong>Random User Data Generator</strong>:</h3>
+<pre><code>cd random-user-data-generator<br>node app.js</code></pre>
+
+<h3>To run the <strong>PDF Generator with QR Code</strong>:</h3>
+<pre><code>cd pdf-qr-generator<br>node app.js</code></pre>
+
+---
+
+<h2>Usage</h2>
+
+<h3><strong>Random User Data Generator</strong></h3>
+<ol>
+    <li>Open the app in your browser at <a href="http://localhost:3000" target="_blank">http://localhost:3000</a>.</li>
+    <li>Click on "Generate Data" to create random user data.</li>
+    <li>The data will be saved in a <code>data.csv</code> file in the root directory.</li>
+</ol>
+
+<h3><strong>PDF Generator with QR Code</strong></h3>
+<ol>
+    <li>Open the app in your browser at <a href="http://localhost:3001" target="_blank">http://localhost:3001</a>.</li>
+    <li>Input the information you want to encode in the QR code.</li>
+    <li>Download the generated PDF, which will contain the QR code with the input data.</li>
+</ol>
+
+---
+
+<h2>License</h2>
+
+<p>This project is licensed under the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
